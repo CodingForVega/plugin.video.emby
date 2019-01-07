@@ -1,8 +1,8 @@
 # Jellyfin for Kodi
 
-[![EmbyKodi_Banner](https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg)](https://www.reddit.com/r/jellyfin/)
+[![JellyfinKodi_Banner](https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true)](https://www.reddit.com/r/jellyfin/)
 
-[![Wiki](https://img.shields.io/badge/get%20started-wiki-brightgreen.svg)](https://github.com/CodingForVega/plugin.video.emby/wiki) 
+[![Wiki](https://img.shields.io/badge/get%20started-wiki-brightgreen.svg)](https://github.com/CodingForVega/plugin.video.jellyfin/wiki) 
 [![Forums](https://img.shields.io/badge/report%20issues-forums-3960C1.svg)](https://www.reddit.com/r/jellyfin/)
 <!--[![Donate](https://img.shields.io/badge/donate-kofi-blue.svg)](https://ko-fi.com/A5354BI)-->
 <!--[![Emby](https://img.shields.io/badge/server-emby-52b54b.svg)](https://github.com/jellyfin/jellyfin)-->
@@ -33,12 +33,12 @@ The add-on supports a hybrid approach. You can decide which Jellyfin libraries t
 - Remote control your Kodi; send play commands from your Jellyfin web client or <!--Jellyfin-mobile-coming-soon--> compatible mobile apps.
 - Extrafanart (rotating backgrounds) for skins that support it
 - Offer to delete content after playback
-- Backup your Jellyfin kodi profile. See the [Jellyfin backup option](https://github.com/CodingForVega/plugin.video.emby/wiki/Create-and-restore-from-backup)
+- Backup your Jellyfin kodi profile. See the [Jellyfin backup option](https://github.com/CodingForVega/plugin.video.jellyfin/wiki/Create-and-restore-from-backup)
 - and more...
 
 ### Download and installation
 **Important notes**
-- To achieve direct play, you will need to ensure your Jellyfin library paths point to network paths (e.g: "\\\\server\Media\Movies"). See the [paths wiki](https://github.com/CodingForVega/plugin.video.emby/wiki/Optional-Network-Paths) for additional information.
+- To achieve direct play, you will need to ensure your Jellyfin library paths point to network paths (e.g: "\\\\server\Media\Movies"). See the [paths wiki](https://github.com/CodingForVega/plugin.video.jellyfin/wiki/Optional-Network-Paths) for additional information.
 - **The addon is not (and will not be) compatible with the MySQL database replacement in Kodi.** In fact, Jellyfin takes over the point of having a MySQL database because it acts as a "man in the middle" for your entire media library.
 - Jellyfin for Kodi is not currently compatible with Kodi's Video Extras addon unless native playback mode is used. **Deactivate Video Extras if content start randomly playing.**
 
